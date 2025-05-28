@@ -1,10 +1,10 @@
 import React, { useState } from "react";
 import Slideshow from "./Slideshow";
-import searchData from "../assets/searching.json";
-import searchImage from "../assets/screenshots/search.jpg";
-import searchWiki from "../assets/screenshots/search-wiki.jpg";
-import searchAudio from "../assets/screenshots/search-audioguide.jpg";
-import searchDept from "../assets/screenshots/search-departments.jpg";
+import searchData from "../data/searching.json";
+import searchImage from "/assets/screenshots/search.jpg";
+import searchWiki from "/assets/screenshots/search-wiki.jpg";
+import searchAudio from "/assets/screenshots/search-audioguide.jpg";
+import searchDept from "/assets/screenshots/search-departments.jpg";
 
 export default function Visiting() {
   const settings = {
@@ -33,7 +33,6 @@ export default function Visiting() {
 
   const [selectedContent, setSelectedContent] = useState(options[0]);
 
-  console.log(selectedContent);
   const currentContent = searchData[selectedContent] || [];
 
   const imageMap = {

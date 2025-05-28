@@ -7,9 +7,9 @@ import Learning from "./components/Learning";
 import Searching from "./components/Searching";
 import Visiting from "./components/Visiting";
 import Footer from "./components/Footer";
-import appicon from "./assets/appicon.png";
-import corner from "./assets/corner.png";
-import appstore from "./assets/App_Store_Badge_US-UK_RGB_wht_092917.svg";
+import appicon from "/assets/appicon.png";
+import corner from "/assets/corner.png";
+import appstore from "/assets/App_Store_Badge_US-UK_RGB_wht_092917.svg";
 
 function App() {
   const [showSplash, setShowSplash] = useState(true);

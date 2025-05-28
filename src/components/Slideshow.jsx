@@ -1,13 +1,11 @@
 import React, { useState } from "react";
 import Slider from "react-slick";
+import VideoPlayer from "./VideoPlayer";
+import ImageDisplay from "./ImageDisplay";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
-export default function Slideshow({
-  currentContent,
-  selectedContent,
-  imageMap,
-}) {
+export default function Slideshow({ currentContent, selectedContent }) {
   const settings = {
     fade: true,
     infinite: true,
@@ -18,11 +16,9 @@ export default function Slideshow({
     pauseOnHover: true,
     arrows: false,
     dots: true,
-    autoplay: true,
+    autoplay: false,
     autoplaySpeed: 8000,
   };
-
-  console.log("CC " + currentContent);
 
   return (
     <>
@@ -38,11 +34,16 @@ export default function Slideshow({
                     </div>
                   ))}
                 </div>
-                <div className="slideshow-image">
-                  <img
-                    src={imageMap[item.img]}
-                    alt={`${selectedContent} ${index}`}
-                  />
+
+                <div className="slideshow-media">
+                  {item.video && <VideoPlayer videoFile={item.video} />}
+                  {item.image && !item.video && (
+                    <ImageDisplay
+                      imageFile={item.image}
+                      alt={item.alt}
+                      index={index}
+                    />
+                  )}
                 </div>
               </div>
             ))}

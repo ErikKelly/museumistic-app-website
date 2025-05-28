@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import appicon from "../assets/appicon.png";
+import appicon from "/assets/appicon.png";
 
 export default function Splash() {
   return (

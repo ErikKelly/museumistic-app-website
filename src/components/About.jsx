@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import ek from "../assets/ek.jpg";
+import ek from "/assets/ek.jpg";
 
 export default function About() {
   return (
