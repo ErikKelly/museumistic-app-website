@@ -1,0 +1,68 @@
+@keyframes fadeOut {
+  0% { opacity: 1; }
+  67% { opacity: 1; }
+  100% { opacity: 0; }
+}
+
+.fade-sequence {
+  opacity: 0;
+  animation: fadeInShowFadeOut 6s ease-in-out forwards;
+  animation-delay: var(--delay, 0s);
+}
+
+@keyframes fadeInShowFadeOut {
+  0% { opacity: 0; }
+  33% { opacity: 1; }
+  67% { opacity: 1; }
+  100% { opacity: 0; }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+
+.fade-in-sequence {
+  opacity: 0;
+  animation-play-state: paused;
+}
+
+
+
+
+.slick-active .fade-in-sequence-delay0 {
+  animation: fadeInShowFadeOut 8s ease-in-out forwards;
+  animation-delay: var(--delay, 0s);
+}
+
+.slick-active .fade-in-sequence-delay1 {
+  animation: fadeInShowFadeOut 8s ease-in-out forwards;
+  animation-delay: var(--delay, 1s);
+}
+.slick-active .fade-in-sequence-delay2 {
+  animation: fadeInShowFadeOut 8s ease-in-out forwards;
+  animation-delay: var(--delay, 2s);
+}
+
+.slick-active .fade-in-sequence-delay3 {
+  animation: fadeInShowFadeOut 8s ease-in-out forwards;
+  animation-delay: var(--delay, 3s);
+}
+
+.slick-active .fade-in-sequence-delay4 {
+  animation: fadeInShowFadeOut 8s ease-in-out forwards;
+  animation-delay: var(--delay, 4s);
+}
+
+.slick-active .fade-in-sequence-delay5 {
+  animation: fadeInShowFadeOut 8s ease-in-out forwards;
+  animation-delay: var(--delay, 5s);
+}
+
+@keyframes fadeInShowFadeOut {
+  0% { opacity: 0; }
+  10% { opacity: 1; }
+  100% { opacity: 1; }
+}

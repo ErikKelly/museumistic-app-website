@@ -1,0 +1,318 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+
+#root {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/*  splash  */
+
+.splashIcon{
+  width: 40vw;
+  margin: 0 auto;
+}
+
+.splashIcon img{
+  width: 100%;
+}
+
+.splashLetters{
+  color: #711b31;
+  font-size: 6.2vw;
+}
+
+
+.splashIcon {
+  animation: fadeOut 6s ease-in-out forwards;
+  padding-top: 10vh;
+}
+
+/*  Navigation  */
+
+.home-nav {
+  background-color: #711b31;
+  display: inline-flex;
+  width: 100vw;
+}
+
+.header-title {
+    color: #ffe4cd;
+    font-size: 4em;
+    position: absolute;
+    top: 20px;
+    left: 100px;
+    font-weight: 600;
+}
+
+.header-buttons {
+  position: absolute;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  z-index: 10;
+  margin-top: 5px;
+}
+
+.header-icon{
+  padding: 10px;
+  background-color: #ffe4cd;
+}
+.header-icon img{
+  max-height: 50px;
+}
+
+.tagline {
+    position: absolute;
+    top: 10px;
+    color: white;
+    left: 20vw;
+}
+
+.componentButton {
+  color: #711b31;
+  font-weight: 800;
+  padding: 10px;
+}
+
+.componentButton.active {
+  color: white;
+}
+
+.header-buttons .btn0 {
+  transform: translateX(-130px); /* 100px - 25px = 75px */
+}
+
+.header-buttons .btn1 {
+  transform: translateX(-74px); /* 75px - 25px = 50px */
+}
+
+.header-buttons .btn2 {
+  transform: translateX(-45px); /* 50px - 25px = 25px */
+}
+
+.header-buttons .btn3 {
+  transform: translateX(0); /* 25px - 25px = 0px */
+}
+
+.sq-top {
+    width: 1000px;
+    height: 1000px;
+    position: absolute;
+    background-color: #ffe4cd;
+    right: -940px;
+    top: -500px;
+    z-index: 5;
+    transform: rotate(45deg);
+}
+
+.sq-bottom {
+    width: 1000px;
+    height: 1000px;
+    position: absolute;
+    background-color: #711b31;
+    left: -940px;
+    bottom: -500px;
+    transform: rotate(45deg);
+}
+
+.corner-image {
+    position: absolute;
+    right: 10px;
+    bottom: 40px;
+}
+
+/* Main content */
+
+.main-content{
+  margin-top: 8vh;
+  position: relative;
+  z-index: 50;
+}
+
+.appstore {
+    position: absolute;
+    top: 45vh;
+    z-index: 20;
+    right: 10vw;
+}
+
+/*  About Page  */
+
+        .text-container {
+            width: 80%;
+            margin: 0 auto;
+            max-width: 600px;
+            text-align: left;
+        }
+        .about-image{
+          position: relative;
+          display: inline-block; 
+          float: right;
+          right: 0;
+        }
+        .about-box {
+  position: absolute;
+  top: -10px;  
+  right: -10px; 
+  width: 100%;
+  height: 100%;
+  background-color: #711b31; 
+}
+        .floating-image {
+          position: relative;
+            float: right;
+            width: 150px; 
+            height: auto;
+        }
+
+        .slideshow-items{
+  max-width: 500px;
+  display: flex !important;
+  justify-content: center;
+  align-items: flex-start; 
+  gap: 20px; 
+  margin: 40px auto 0 auto;
+        }
+.slideshow-text{
+  width: 300px;
+}
+        .slideshow-items div{
+          text-align: left;
+        }
+
+        .slideshow-image img{
+              max-height: 40vh;
+        }
+
+/* Pages */
+
+
+
+.dot-item:before {
+  font-size: 0; 
+  width: 10px;
+  height: 10px;
+  background-color: #711b31 ;
+  border: none;
+  border-radius: 0; 
+  outline: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 8px;
+}
+
+
+.searching .nav-buttons .nav-btn{
+  font-weight: 700;
+  color: #711b31;
+    border-bottom: 3px solid transparent;
+
+}
+
+.searching .nav-buttons .nav-btn.active {
+  border-bottom: 3px solid #711b31;
+}
+
+.dot-item {
+  position: relative;
+  padding-left: 20px; /* Space for the dot */
+}
+
+.dot-item::before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  color: #333; /* Dot color */
+  font-weight: bold;
+}
+
+.slick-dots{
+  bottom: -70px !important;
+}
+
+.slick-dots li button:before {
+  font-size: 18px !important;
+  color: #ffe4cd !important;
+  opacity: 1 !important;
+}
+
+.slick-dots li.slick-active button:before{
+  color: #711b31 !important;
+}
+
+.slick-slider .slick-dots li {
+  margin: 0 40px; 
+}
+
+.slick-slider .slick-dots li button {
+  font-size: 0; 
+  width: 20px;
+  height: 20px;
+  background-color: #ffe4cd ;
+  border: none;
+  border-radius: 0; 
+  outline: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.slick-dots li button:before {
+  content: ''; /* Remove the default dot */
+  display: none;
+}
+
+.slick-dots li.slick-active button {
+  background-color: #711b31; /* Active state color */
+}
+
+.slideshow-text div {
+  margin-bottom: 20px;
+}
+
+.slideshow-text .text-center {
+  text-align: center;
+}
+
+.slideshow-text .text-right {
+  text-align: right;
+}
+
+.slide-title{
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.page-name {
+    font-weight: 700;
+    width: 20px;
+    font-size: 3em;
+    text-transform: uppercase;
+    position: absolute;
+    left: 5vw;
+    bottom: 30vh;
+    transform: rotate(270deg);
+    text-align: left;
+}
+/* Footer */
+
+.footer {
+  font-size: 14px;
+    position: absolute;
+    bottom: 20px;
+    width: 80vw;
+    background-color: #ffe4cd;
+    text-align: left;
+    padding: 10px;
+    padding-left: 40px;
+    z-index: 5;
+}
+
+.copyright{
+  position: absolute;
+  bottom: 0;
+  right: 10px;
+  font-size: .8em;
+}
+
+
