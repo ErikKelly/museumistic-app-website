@@ -3,9 +3,7 @@ import "./App.css";
 import "./Animations.css";
 import Splash from "./components/Splash";
 import About from "./components/About";
-import Learning from "./components/Learning";
-import Searching from "./components/Searching";
-import Visiting from "./components/Visiting";
+import ContentPage from "./components/ContentPage";
 import Footer from "./components/Footer";
 import appicon from "/assets/appicon.png";
 import corner from "/assets/corner.png";
@@ -17,9 +15,9 @@ function App() {
 
   const components = [
     { name: "About", component: <About /> },
-    { name: "Searching", component: <Searching /> },
-    { name: "Visiting", component: <Visiting /> },
-    { name: "Learning", component: <Learning /> },
+    { name: "Searching", component: <ContentPage dataSource="search" /> },
+    { name: "Visiting", component: <ContentPage dataSource="visiting" /> },
+    { name: "Learning", component: <ContentPage dataSource="learning" /> },
   ];
 
   useEffect(() => {
@@ -73,9 +71,8 @@ function App() {
         </a>
       </div>
 
-      <div className="main-content">
-        {components[selectedComponent].component}
-      </div>
+      <div className="main-content"></div>
+      {components[selectedComponent].component}
 
       <Footer />
       <div className="page-name">{components[selectedComponent].name}</div>

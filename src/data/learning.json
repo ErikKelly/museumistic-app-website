@@ -1,0 +1,124 @@
+{
+  "quiz": [
+    {
+      "title": "Quiz",
+      "text": [
+        {
+          "copy": "Search the entire collection at The Metropolitian Museum of Art",
+          "className": "slide-title"
+        },
+        {
+          "copy": "Choose from a list of highlighted artists.",
+          "className": "dot-item fade-in-sequence fade-in-sequence-delay1"
+        },
+        {
+          "copy": "Search by artist name or gallery number.",
+          "className": "dot-item fade-in-sequence fade-in-sequence-delay2"
+        },
+        {
+          "copy": "Listen to audio guides.",
+          "className": "dot-item fade-in-sequence fade-in-sequence-delay3"
+        },
+        {
+          "copy": "View departments and their galleries.",
+          "className": "dot-item fade-in-sequence fade-in-sequence-delay4"
+        }
+      ],
+      "image": "",
+      "alt": "",
+      "video": "search.mp4"
+    }
+  ],
+  "drawing": [
+    {
+      "title": "Drawing Challenge",
+      "text": [
+        {
+          "copy": "Artist Info",
+          "className": "slide-title"
+        },
+        {
+          "copy": "Access the artists Wikipedia information.",
+          "className": "dot-item fade-in-sequence fade-in-sequence-delay1"
+        },
+        {
+          "copy": "View all of the artists works in the collection.",
+          "className": "dot-item fade-in-sequence fade-in-sequence-delay2"
+        }
+      ],
+      "image": "",
+      "video": "artistbio.mp4"
+    }
+  ],
+  "birthdays": [
+    {
+      "title": "Birthdays",
+      "text": [
+        {
+          "copy": "Artist Info",
+          "className": "slide-title"
+        },
+        {
+          "copy": "Access the artists Wikipedia information.",
+          "className": "dot-item fade-in-sequence fade-in-sequence-delay1"
+        },
+        {
+          "copy": "View all of the artists works in the collection.",
+          "className": "dot-item fade-in-sequence fade-in-sequence-delay2"
+        }
+      ],
+      "image": "",
+      "video": "artistbio.mp4"
+    }
+  ],
+  "timeline": [
+    {
+      "title": "Timeline",
+      "text": [
+        {
+          "copy": "AI Queries",
+          "className": "slide-title"
+        },
+        {
+          "copy": "What was culture like when and where the artist worked?",
+          "className": "dot-item fade-in-sequence fade-in-sequence-delay1"
+        },
+        {
+          "copy": "What were the politics of the time?",
+          "className": "dot-item fade-in-sequence fade-in-sequence-delay2"
+        },
+        {
+          "copy": "Who may have the artist known or worked along side of?",
+          "className": "dot-item fade-in-sequence fade-in-sequence-delay3"
+        },
+        {
+          "copy": "What were some world events that may have impacted the artist?",
+          "className": "dot-item fade-in-sequence fade-in-sequence-delay4"
+        }
+      ],
+      "image": "",
+      "video": "ai.mp4"
+    }
+  ],
+  "terms": [
+    {
+      "title": "Terms",
+      "text": [
+        {
+          "copy": "Peers Timeline",
+          "className": "slide-title"
+        },
+        {
+          "copy": "See what other artists were creating art at the same time, from around the world.",
+          "className": "dot-item fade-in-sequence fade-in-sequence-delay1"
+        },
+        {
+          "copy": "Filter by nationality to see how styles vary.",
+          "className": "dot-item fade-in-sequence fade-in-sequence-delay2"
+        }
+      ],
+      "image": "",
+      "video": "peers.mp4"
+    }
+  ]
+}

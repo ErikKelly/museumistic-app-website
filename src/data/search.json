@@ -1,6 +1,7 @@
 {
   "searching": [
     {
+      "title": "Search",
       "text": [
         {
           "copy": "Search the entire collection at The Metropolitian Museum of Art",
@@ -30,6 +31,7 @@
   ],
   "artwork": [
     {
+      "title": "Artwork",
       "text": [
         {
           "copy": "Artist Info",
@@ -50,6 +52,7 @@
   ],
   "bio": [
     {
+      "title": "Artist Info",
       "text": [
         {
           "copy": "Artist Info",
@@ -70,6 +73,7 @@
   ],
   "ai": [
     {
+      "title": "AI",
       "text": [
         {
           "copy": "AI Queries",
@@ -98,6 +102,7 @@
   ],
   "timeline": [
     {
+      "title": "Timeline",
       "text": [
         {
           "copy": "Peers Timeline",
@@ -118,6 +123,7 @@
   ],
   "comments": [
     {
+      "title": "Comments",
       "text": [
         {
           "copy": "Second search text",

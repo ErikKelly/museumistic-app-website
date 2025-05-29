@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import VideoPlayer from "./VideoPlayer";
 import ek from "/assets/ek.jpg";
 
 export default function About() {
@@ -18,15 +19,37 @@ export default function About() {
               and learning about art, artists, and cultures from around the
               world and throughout history.
             </p>
-            <p>
-              The artwork content for this app is currently limited to the
-              artwork of The Metroplitian Museum of Art.
-            </p>
-            <p>
-              Many thanks to The Metropolitan Museum of Art for being such a
-              constant inspiration and for offering the public APIs that made
-              this app possible.
-            </p>
+          </div>
+        </div>
+        <div className="features">
+          <div className="features-video">
+            <VideoPlayer videoFile="ai.mp4" />
+          </div>
+          <div className="features-copy">
+            <div className="slide-title">Features Include:</div>
+            <div className="dot-item">
+              A variety of ways to explore The Met's collection.
+            </div>
+            <div className="dot-item">
+              Use GPS to see your relationship and distance to any artwork on
+              display, including a compass to guide you.{" "}
+            </div>
+            <div className="dot-item">
+              Use AI to dig deeper into the times a work was created.
+            </div>
+            <div className="dot-item">
+              Try one of the many curations, or even create your own.
+            </div>
+            <div className="dot-item">
+              Leave and read comments about artworks.
+            </div>
+            <div className="dot-item">
+              Try the daily art quiz or weekly drawing challenge.
+            </div>
+            <div className="dot-item">
+              See which artists were both on this date.
+            </div>
+            <div className="dot-item">And much, much more!</div>
           </div>
         </div>
       </div>
