@@ -6,27 +6,6 @@
   text-align: center;
 }
 
-/*  splash  */
-
-.splashIcon {
-  width: 40vw;
-  margin: 0 auto;
-}
-
-.splashIcon img {
-  width: 100%;
-}
-
-.splashLetters {
-  color: #711b31;
-  font-size: 6.2vw;
-}
-
-.splashIcon {
-  animation: fadeOut 6s ease-in-out forwards;
-  padding-top: 10vh;
-}
-
 /*  Navigation  */
 
 .home-nav {

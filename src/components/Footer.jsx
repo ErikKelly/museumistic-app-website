@@ -9,7 +9,6 @@ export default function Footer() {
           <a href="mailto:mail@museumistic.app">mail@museumistic.app</a>
         </div>
         <div className="privacy-policy">
-          Click{" "}
           <a href="https://museumistic.app/privacy/" target="_blank">
             here
           </a>{" "}

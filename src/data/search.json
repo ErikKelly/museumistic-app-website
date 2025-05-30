@@ -34,16 +34,21 @@
       "title": "Artwork",
       "text": [
         {
-          "copy": "Artist Info",
+          "copy": "Artwork Info",
           "className": "slide-title"
         },
         {
-          "copy": "Access the artists Wikipedia information.",
+          "copy": "Learn about each artwork.",
           "className": "dot-item fade-in-sequence fade-in-sequence-delay1"
         },
         {
-          "copy": "View all of the artists works in the collection.",
+          "copy": "Listen to a description of the artwork.",
           "className": "dot-item fade-in-sequence fade-in-sequence-delay2"
+        },
+
+        {
+          "copy": "See where the artwork is located and your distance from it.",
+          "className": "dot-item fade-in-sequence fade-in-sequence-delay3"
         }
       ],
       "image": "",
@@ -126,30 +131,20 @@
       "title": "Comments",
       "text": [
         {
-          "copy": "Second search text",
-          "className": "search"
+          "copy": "User Comments",
+          "className": "slide-title"
         },
         {
-          "copy": "Third search text",
-          "className": "search2"
+          "copy": "Read comments by other app users about artworks in the collection.",
+          "className": "dot-item fade-in-sequence fade-in-sequence-delay1"
+        },
+        {
+          "copy": "Leave your own comment for others to enjoy.",
+          "className": "dot-item fade-in-sequence fade-in-sequence-delay2"
         }
       ],
       "image": "",
-      "video": "artistbio.mp4"
-    },
-    {
-      "text": [
-        {
-          "copy": "Second search text",
-          "className": "search"
-        },
-        {
-          "copy": "Third search text",
-          "className": "search2"
-        }
-      ],
-      "image": "search",
-      "video": ""
+      "video": "comment.mp4"
     }
   ]
 }

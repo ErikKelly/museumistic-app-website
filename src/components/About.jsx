@@ -23,7 +23,7 @@ export default function About() {
         </div>
         <div className="features">
           <div className="features-video">
-            <VideoPlayer videoFile="ai.mp4" />
+            <VideoPlayer videoFile="search.mp4" />
           </div>
           <div className="features-copy">
             <div className="slide-title">Features Include:</div>

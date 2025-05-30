@@ -15,6 +15,14 @@ export default function ContentSlideshow({ dataSource }) {
       try {
         const data = await import(`../data/${dataSource}.json`);
         setSearchData(data.default);
+
+        // Reset to first slide when new data loads
+        setActiveSlide(0);
+
+        // Also reset the actual slider
+        if (sliderRef.current) {
+          sliderRef.current.slickGoTo(0);
+        }
       } catch (error) {
         console.error("Failed to load data:", error);
       } finally {

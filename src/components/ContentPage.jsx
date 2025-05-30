@@ -41,54 +41,56 @@ export default function ContentPage() {
 
   return (
     <>
-      <div className="home-nav">
-        <div className="header-icon">
-          <img src={`/assets/appicon.png`} alt="Museumistic Icon" />
+      <div className="content-page fade-in">
+        <div className="home-nav">
+          <div className="header-icon">
+            <img src={`/assets/appicon.png`} alt="Museumistic Icon" />
+          </div>
+          <div className="header-title">MUSEUMISTIC</div>
+          <div className="header-buttons">
+            {components.map((comp, index) => (
+              <button
+                key={index}
+                onClick={() => setSelectedComponent(index)}
+                className={`componentButton btn${index} ${
+                  selectedComponent === index ? "active" : ""
+                }`}
+              >
+                {comp.name}
+              </button>
+            ))}
+          </div>
+          <div className="tagline">
+            A free iPhone app to help learn about art, artists and culture
+          </div>
+          <div className="sq-top"></div>
+          <div className="sq-bottom"></div>
+          <div className="corner-image">
+            <img src={`/assets/corner.png`} alt="Decorative Corner" />
+          </div>
         </div>
-        <div className="header-title">MUSEUMISTIC</div>
-        <div className="header-buttons">
-          {components.map((comp, index) => (
-            <button
-              key={index}
-              onClick={() => setSelectedComponent(index)}
-              className={`componentButton btn${index} ${
-                selectedComponent === index ? "active" : ""
-              }`}
-            >
-              {comp.name}
-            </button>
-          ))}
+
+        <div className="appstore">
+          <a
+            href="https://apps.apple.com/us/app/museumistic/id6503719551"
+            target="_blank"
+          >
+            <img
+              src={`/assets/App_Store_Badge_US-UK_RGB_wht_092917.svg`}
+              alt="App Store Image"
+            />
+          </a>
         </div>
-        <div className="tagline">
-          A free iPhone app to help learn about art, artists and culture
+
+        <div className="main-content">
+          {components[selectedComponent].component}
         </div>
-        <div className="sq-top"></div>
-        <div className="sq-bottom"></div>
-        <div className="corner-image">
-          <img src={`/assets/corner.png`} alt="Decorative Corner" />
-        </div>
+
+        <div className="page-name">{components[selectedComponent].name}</div>
+
+        <div className="copyright">© 2025 Erik Kelly. All rights reserved.</div>
+        <Footer />
       </div>
-
-      <div className="appstore">
-        <a
-          href="https://apps.apple.com/us/app/museumistic/id6503719551"
-          target="_blank"
-        >
-          <img
-            src={`/assets/App_Store_Badge_US-UK_RGB_wht_092917.svg`}
-            alt="App Store Image"
-          />
-        </a>
-      </div>
-
-      <div className="main-content">
-        {components[selectedComponent].component}
-      </div>
-
-      <div className="page-name">{components[selectedComponent].name}</div>
-
-      <div className="copyright">© 2025 Erik Kelly. All rights reserved.</div>
-      <Footer />
     </>
   );
 }

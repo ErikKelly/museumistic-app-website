@@ -4,11 +4,11 @@
       "title": "Nearby",
       "text": [
         {
-          "copy": "Geolocate Artworks",
+          "copy": "Nearby artworks",
           "className": "slide-title"
         },
         {
-          "copy": "See the exact distance to any given gallery.",
+          "copy": "Use your location to see the exact distance to any given gallery.",
           "className": "dot-item fade-in-sequence fade-in-sequence-delay1"
         },
         {
@@ -30,20 +30,20 @@
       "title": "Itinerary options",
       "text": [
         {
-          "copy": "Use AI to build a custom itinerary.",
+          "copy": "Art Hunt and AI Itineraries",
           "className": "slide-title"
         },
         {
-          "copy": "Select how much time you have and what deparments you're most interested in and submit.",
+          "copy": "The the app select a random artwork for you to find.",
           "className": "dot-item fade-in-sequence fade-in-sequence-delay1"
         },
         {
-          "copy": "Or, go completely random and do the randomized art hunt, where pieces are picked at random for you to fine.",
+          "copy": "AI Itineraries: select how much time you have and what deparments you're most interested in and submit.",
           "className": "dot-item fade-in-sequence fade-in-sequence-delay2"
         }
       ],
       "image": "",
-      "video": "artistbio.mp4"
+      "video": "itineraries.mp4"
     }
   ],
   "curations": [
@@ -55,16 +55,20 @@
           "className": "slide-title"
         },
         {
-          "copy": "Access the artists Wikipedia information.",
+          "copy": "Select from highlights or custom curations.",
           "className": "dot-item fade-in-sequence fade-in-sequence-delay1"
         },
         {
-          "copy": "View all of the artists works in the collection.",
+          "copy": "Learn why each artwork was selected.",
+          "className": "dot-item fade-in-sequence fade-in-sequence-delay1"
+        },
+        {
+          "copy": "View artworks as a list or on a map view.",
           "className": "dot-item fade-in-sequence fade-in-sequence-delay2"
         }
       ],
       "image": "",
-      "video": "artistbio.mp4"
+      "video": "curations.mp4"
     }
   ],
   "events": [
@@ -72,28 +76,24 @@
       "title": "Events",
       "text": [
         {
-          "copy": "AI Queries",
+          "copy": "Events",
           "className": "slide-title"
         },
         {
-          "copy": "What was culture like when and where the artist worked?",
+          "copy": "Join a custom tour about to take place.",
           "className": "dot-item fade-in-sequence fade-in-sequence-delay1"
         },
         {
-          "copy": "What were the politics of the time?",
+          "copy": "See what events are about to happen.",
           "className": "dot-item fade-in-sequence fade-in-sequence-delay2"
         },
         {
-          "copy": "Who may have the artist known or worked along side of?",
+          "copy": "Find out what special exhibits are on display.",
           "className": "dot-item fade-in-sequence fade-in-sequence-delay3"
-        },
-        {
-          "copy": "What were some world events that may have impacted the artist?",
-          "className": "dot-item fade-in-sequence fade-in-sequence-delay4"
         }
       ],
       "image": "",
-      "video": "ai.mp4"
+      "video": "events.mp4"
     }
   ],
   "galleries": [
@@ -101,20 +101,24 @@
       "title": "Galleries",
       "text": [
         {
-          "copy": "Peers Timeline",
+          "copy": "Gallery List",
           "className": "slide-title"
         },
         {
-          "copy": "See what other artists were creating art at the same time, from around the world.",
+          "copy": "View a list of all the galleries.",
           "className": "dot-item fade-in-sequence fade-in-sequence-delay1"
         },
         {
-          "copy": "Filter by nationality to see how styles vary.",
+          "copy": "Filter by floor or deparment.",
           "className": "dot-item fade-in-sequence fade-in-sequence-delay2"
+        },
+        {
+          "copy": "Sort by gallery number or use geolocation to sort by distance from you.",
+          "className": "dot-item fade-in-sequence fade-in-sequence-delay3"
         }
       ],
       "image": "",
-      "video": "peers.mp4"
+      "video": "galleries.mp4"
     }
   ]
 }

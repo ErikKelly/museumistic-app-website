@@ -1,20 +1,54 @@
+.splashIcon {
+  width: 40vw;
+  margin: 0 auto;
+}
+
+.splashIcon img {
+  width: 100%;
+}
+
+.splashLetters {
+  color: #711b31;
+  font-size: 5.6vw;
+}
+
+.splashIcon {
+  animation: fadeOut 5s ease-in-out forwards;
+  padding-top: 10vh;
+}
+
 @keyframes fadeOut {
-  0% { opacity: 1; }
-  67% { opacity: 1; }
-  100% { opacity: 0; }
+  0% {
+    opacity: 0;
+  }
+  20% {
+    opacity: 1;
+  }
+  80% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
 }
 
 .fade-sequence {
   opacity: 0;
-  animation: fadeInShowFadeOut 6s ease-in-out forwards;
+  animation: fadeOut 5s ease-in-out forwards;
   animation-delay: var(--delay, 0s);
 }
 
-@keyframes fadeInShowFadeOut {
-  0% { opacity: 0; }
-  33% { opacity: 1; }
-  67% { opacity: 1; }
-  100% { opacity: 0; }
+.fade-in {
+  animation: FadeIn 2s ease-in-out forwards;
+}
+
+@keyframes FadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -23,14 +57,10 @@
   }
 }
 
-
 .fade-in-sequence {
   opacity: 0;
   animation-play-state: paused;
 }
-
-
-
 
 .slick-active .fade-in-sequence-delay0 {
   animation: fadeInShowFadeOut 8s ease-in-out forwards;
@@ -62,7 +92,13 @@
 }
 
 @keyframes fadeInShowFadeOut {
-  0% { opacity: 0; }
-  10% { opacity: 1; }
-  100% { opacity: 1; }
+  0% {
+    opacity: 0;
+  }
+  10% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
 }

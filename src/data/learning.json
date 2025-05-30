@@ -18,7 +18,7 @@
       ],
       "image": "",
       "alt": "",
-      "video": "search.mp4"
+      "video": "quiz.mp4"
     }
   ],
   "drawing": [
@@ -39,7 +39,7 @@
         }
       ],
       "image": "",
-      "video": "artistbio.mp4"
+      "video": "drawing.mp4"
     }
   ],
   "birthdays": [
@@ -53,10 +53,18 @@
         {
           "copy": "See what artists were born on this date.",
           "className": "dot-item fade-in-sequence fade-in-sequence-delay1"
+        },
+        {
+          "copy": "Ask AI about the artist.",
+          "className": "dot-item fade-in-sequence fade-in-sequence-delay1"
+        },
+        {
+          "copy": "See the birthday person's artworks.",
+          "className": "dot-item fade-in-sequence fade-in-sequence-delay1"
         }
       ],
       "image": "",
-      "video": "artistbio.mp4"
+      "video": "birthdays.mp4"
     }
   ],
   "timeline": [
@@ -81,7 +89,7 @@
         }
       ],
       "image": "",
-      "video": "ai.mp4"
+      "video": "timeline.mp4"
     }
   ],
   "terms": [
@@ -102,7 +110,7 @@
         }
       ],
       "image": "",
-      "video": "peers.mp4"
+      "video": "terms.mp4"
     }
   ]
 }
