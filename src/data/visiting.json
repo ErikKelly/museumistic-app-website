@@ -4,24 +4,20 @@
       "title": "Nearby",
       "text": [
         {
-          "copy": "Search the entire collection at The Metropolitian Museum of Art",
+          "copy": "Geolocate Artworks",
           "className": "slide-title"
         },
         {
-          "copy": "Choose from a list of highlighted artists.",
+          "copy": "See the exact distance to any given gallery.",
           "className": "dot-item fade-in-sequence fade-in-sequence-delay1"
         },
         {
-          "copy": "Search by artist name or gallery number.",
+          "copy": "Let the compass guide point the way.",
           "className": "dot-item fade-in-sequence fade-in-sequence-delay2"
         },
         {
-          "copy": "Listen to audio guides.",
-          "className": "dot-item fade-in-sequence fade-in-sequence-delay3"
-        },
-        {
-          "copy": "View departments and their galleries.",
-          "className": "dot-item fade-in-sequence fade-in-sequence-delay4"
+          "copy": "Also works to find restrooms, elevators, dining and exits.",
+          "className": "dot-item fade-in-sequence fade-in-sequence-delay2"
         }
       ],
       "image": "",
@@ -31,18 +27,18 @@
   ],
   "itineraries": [
     {
-      "title": "Itineraries",
+      "title": "Itinerary options",
       "text": [
         {
-          "copy": "Artist Info",
+          "copy": "Use AI to build a custom itinerary.",
           "className": "slide-title"
         },
         {
-          "copy": "Access the artists Wikipedia information.",
+          "copy": "Select how much time you have and what deparments you're most interested in and submit.",
           "className": "dot-item fade-in-sequence fade-in-sequence-delay1"
         },
         {
-          "copy": "View all of the artists works in the collection.",
+          "copy": "Or, go completely random and do the randomized art hunt, where pieces are picked at random for you to fine.",
           "className": "dot-item fade-in-sequence fade-in-sequence-delay2"
         }
       ],
@@ -55,7 +51,7 @@
       "title": "Curations",
       "text": [
         {
-          "copy": "Artist Info",
+          "copy": "Curated Collections",
           "className": "slide-title"
         },
         {

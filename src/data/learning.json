@@ -4,24 +4,16 @@
       "title": "Quiz",
       "text": [
         {
-          "copy": "Search the entire collection at The Metropolitian Museum of Art",
+          "copy": "Daily art quiz",
           "className": "slide-title"
         },
         {
-          "copy": "Choose from a list of highlighted artists.",
+          "copy": "Every day five paintings are selected at random. It's your job to pick who painting the artwork.",
           "className": "dot-item fade-in-sequence fade-in-sequence-delay1"
         },
         {
-          "copy": "Search by artist name or gallery number.",
+          "copy": "Share your score with friends and family.",
           "className": "dot-item fade-in-sequence fade-in-sequence-delay2"
-        },
-        {
-          "copy": "Listen to audio guides.",
-          "className": "dot-item fade-in-sequence fade-in-sequence-delay3"
-        },
-        {
-          "copy": "View departments and their galleries.",
-          "className": "dot-item fade-in-sequence fade-in-sequence-delay4"
         }
       ],
       "image": "",
@@ -34,15 +26,15 @@
       "title": "Drawing Challenge",
       "text": [
         {
-          "copy": "Artist Info",
+          "copy": "Weekly drawing challenge",
           "className": "slide-title"
         },
         {
-          "copy": "Access the artists Wikipedia information.",
+          "copy": "Each week three sculptures and three paintings are chosen at random to inspire you to copy.",
           "className": "dot-item fade-in-sequence fade-in-sequence-delay1"
         },
         {
-          "copy": "View all of the artists works in the collection.",
+          "copy": "Share the results on Instagram or other platforms.",
           "className": "dot-item fade-in-sequence fade-in-sequence-delay2"
         }
       ],
@@ -55,16 +47,12 @@
       "title": "Birthdays",
       "text": [
         {
-          "copy": "Artist Info",
+          "copy": "On this day birthdays",
           "className": "slide-title"
         },
         {
-          "copy": "Access the artists Wikipedia information.",
+          "copy": "See what artists were born on this date.",
           "className": "dot-item fade-in-sequence fade-in-sequence-delay1"
-        },
-        {
-          "copy": "View all of the artists works in the collection.",
-          "className": "dot-item fade-in-sequence fade-in-sequence-delay2"
         }
       ],
       "image": "",
@@ -76,24 +64,20 @@
       "title": "Timeline",
       "text": [
         {
-          "copy": "AI Queries",
+          "copy": "Art through the ages",
           "className": "slide-title"
         },
         {
-          "copy": "What was culture like when and where the artist worked?",
+          "copy": "Select a decade from 1000-present and view the artists working in your selected timeframe.",
           "className": "dot-item fade-in-sequence fade-in-sequence-delay1"
         },
         {
-          "copy": "What were the politics of the time?",
+          "copy": "Filter by nationality.",
           "className": "dot-item fade-in-sequence fade-in-sequence-delay2"
         },
         {
-          "copy": "Who may have the artist known or worked along side of?",
+          "copy": "Ask AI for more information about the artistic environment of that decade.",
           "className": "dot-item fade-in-sequence fade-in-sequence-delay3"
-        },
-        {
-          "copy": "What were some world events that may have impacted the artist?",
-          "className": "dot-item fade-in-sequence fade-in-sequence-delay4"
         }
       ],
       "image": "",
@@ -105,15 +89,15 @@
       "title": "Terms",
       "text": [
         {
-          "copy": "Peers Timeline",
+          "copy": "Common art terms",
           "className": "slide-title"
         },
         {
-          "copy": "See what other artists were creating art at the same time, from around the world.",
+          "copy": "Find out what common art terms mean.",
           "className": "dot-item fade-in-sequence fade-in-sequence-delay1"
         },
         {
-          "copy": "Filter by nationality to see how styles vary.",
+          "copy": "Each selection bring up with Wiki for that term.",
           "className": "dot-item fade-in-sequence fade-in-sequence-delay2"
         }
       ],

@@ -53,7 +53,7 @@ export default function ContentSlideshow({ dataSource }) {
   return (
     <>
       {/* Top Nav */}
-      <div className="searching">
+      <div className="content-slideshow">
         <div className="nav-buttons">
           {sectionKeys.map((sectionKey, index) => (
             <button
