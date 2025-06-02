@@ -35,6 +35,7 @@
 .header-icon {
   padding: 10px;
   background-color: #ffe4cd;
+  z-index: 5;
 }
 .header-icon img {
   max-height: 50px;
@@ -263,17 +264,6 @@
   margin-bottom: 20px;
 }
 
-.page-name {
-  font-weight: 700;
-  width: 20px;
-  font-size: 3em;
-  text-transform: uppercase;
-  position: absolute;
-  left: 5vw;
-  bottom: 30vh;
-  transform: rotate(270deg);
-  text-align: left;
-}
 /* Footer */
 
 .footer {

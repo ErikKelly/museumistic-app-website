@@ -102,3 +102,40 @@
     opacity: 1;
   }
 }
+
+/* page name */
+
+.page-name {
+  font-weight: 700;
+  width: 20px;
+  font-size: 3em;
+  text-transform: uppercase;
+  position: absolute;
+  left: 5vw;
+  bottom: 30vh;
+  transform: rotate(270deg);
+  text-align: left;
+  transition: bottom 0.5s ease-in-out;
+}
+
+.page-name.previous.animate-out {
+  bottom: 100vh; /* Previous name moves up and out */
+}
+
+.page-name.current {
+  bottom: 30vh; /* Default position */
+}
+
+.page-name.current.animate-in {
+  bottom: 30vh; /* End position (same as default) */
+  animation: slideInFromBottom 0.5s ease-in-out;
+}
+
+@keyframes slideInFromBottom {
+  from {
+    bottom: -20vh; /* Start below screen */
+  }
+  to {
+    bottom: 30vh; /* End at normal position */
+  }
+}

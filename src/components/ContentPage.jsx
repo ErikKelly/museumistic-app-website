@@ -4,6 +4,8 @@ import "../Animations.css";
 import Splash from "./Splash";
 import About from "./About";
 import ContentSlideshow from "./ContentSlideshow";
+import AnimatePageName from "./AnimatePageName";
+
 import Footer from "./Footer";
 
 export default function ContentPage() {
@@ -86,7 +88,7 @@ export default function ContentPage() {
           {components[selectedComponent].component}
         </div>
 
-        <div className="page-name">{components[selectedComponent].name}</div>
+        <AnimatePageName pageName={components[selectedComponent].name} />
 
         <div className="copyright">© 2025 Erik Kelly. All rights reserved.</div>
         <Footer />
