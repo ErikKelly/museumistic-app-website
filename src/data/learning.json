@@ -56,11 +56,11 @@
         },
         {
           "copy": "Ask AI about the artist.",
-          "className": "dot-item fade-in-sequence fade-in-sequence-delay1"
+          "className": "dot-item fade-in-sequence fade-in-sequence-delay2"
         },
         {
           "copy": "See the birthday person's artworks.",
-          "className": "dot-item fade-in-sequence fade-in-sequence-delay1"
+          "className": "dot-item fade-in-sequence fade-in-sequence-delay3"
         }
       ],
       "image": "",

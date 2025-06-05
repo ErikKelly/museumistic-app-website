@@ -13,7 +13,7 @@
 }
 
 .splashIcon {
-  animation: fadeOut 5s ease-in-out forwards;
+  animation: fadeOut 4s ease-in-out forwards;
   padding-top: 10vh;
 }
 
@@ -34,7 +34,7 @@
 
 .fade-sequence {
   opacity: 0;
-  animation: fadeOut 5s ease-in-out forwards;
+  animation: fadeOut 4s ease-in-out forwards;
   animation-delay: var(--delay, 0s);
 }
 
